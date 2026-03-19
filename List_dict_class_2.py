@@ -50,13 +50,13 @@ print(team_info)
 
 print("=========================")
 
-team_info["size"] = 10
+team_info["size"] = 10  #step 4 replacing value in dict
 print(team_info["size"])
 print(team_info)
 
 print("==========================")
 
-team_info.pop("mascot")
+team_info.pop("mascot") #step 5 removing a key from dict
 print(team_info)
 
 print("===========================")
